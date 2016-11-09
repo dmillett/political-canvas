@@ -1,4 +1,4 @@
-# political-canvas
+# political-canvas (www.political-canvas.org)
 
 A Clojure library designed to fix the election system and governance of laws
 in the United States that compliment the United States Constitution. 

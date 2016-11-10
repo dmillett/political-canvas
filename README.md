@@ -1,18 +1,18 @@
 # political-canvas (www.political-canvas.org)
 
-A Clojure library designed to fix the election system and governance of laws
-in the United States that compliment the United States Constitution. 
-The goal is to keep the process and structure simple while ensuring:
+A Clojure library designed to reduce disenfranchisement and fix the election 
+system and governance of laws in the United States that compliment the United 
+States Constitution. The goal is to keep the process and structure simple while 
+ensuring:
 
  1. Freedom
  2. Equality
  3. Honesty
  4. Responsibility & Accountability
  5. Education
- 6. Environmental Stewardship (air, water, biodiversity, population, etc)
- 7. Transparency
- 8. Public ownership of the framework and domain
- 9. Constituent participation with constructive criticism & debate
+ 6. Transparency
+ 7. Public ownership of the framework and domain
+ 8. Constituent participation with constructive criticism & debate
 
 ## Build Campaign
  Create a framework that allows candidates to build a campaign for an election at

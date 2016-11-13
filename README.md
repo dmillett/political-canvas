@@ -5,6 +5,7 @@ system and governance of laws in the United States that compliment the United
 States Constitution. This application framework supports two goals:
  
 [Build Campaign](#build-campaign)
+
 [Craft Law](#craft-law) 
  
 **The goal is to keep the process and structure simple while ensuring:**
@@ -43,9 +44,14 @@ candidates. **This includes more in person events with constituents to foster em
  
 ### Informal Polling 
  
+### Schedule Events
+Meet with constituents... empathy doesn't just happen
+ 
 ### Debate Forums
+Zero tolerance for intimidation and hate 
  
 ### Town Hall Forums
+Zero tolerance for intimidation and hate 
  
 ### Financial & Volunteer Contributions
 The digital age brings near ubiqitous communication that should not be influenced

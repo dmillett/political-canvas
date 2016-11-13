@@ -2,8 +2,12 @@
 
 A Clojure library designed to reduce disenfranchisement and fix the election 
 system and governance of laws in the United States that compliment the United 
-States Constitution. The goal is to keep the process and structure simple while 
-ensuring:
+States Constitution. This application framework supports two goals:
+ 
+[Build Campaign](#build-campaign)
+[Craft Law](#craft-law) 
+ 
+**The goal is to keep the process and structure simple while ensuring:**
 
  1. Freedom
  2. Equality
@@ -14,25 +18,48 @@ ensuring:
  7. Public ownership of the framework and domain
  8. Constituent participation with constructive criticism & debate
 
+<a name="build-campaign" />
+
 ## Build Campaign
- Create a framework that allows candidates to build a campaign for an election at
- any level. It should allow for easy campaign setup, social media feeds, candidate
- interaction with constituents/other candidates, and issues position matrix for all
- candidates.
+Create a framework that allows candidates to build a campaign for an election at 
+any level. It should allow for easy campaign setup, social media feeds, candidate 
+interaction with constituents/other candidates, and issues position matrix for all 
+candidates. **This includes more in person events with constituents to foster empathy.** 
  
  1. Create candidacy
  2. Establish platform
- 3. Campaign contributions limits 
- 4. Social media feeds/API
- 5. Debate forums (video/chat/etc)
- 6. Candidate position matrix
- 7. API to/from polling locations
- 8. Public API
+ 3. Campaign contributions limits ($1.00 - your time is worth more) 
+ 4. Schedule Events
+ 5. Social media feeds/API
+ 6. Debate & Town Hall forums (video/chat/etc)
+ 7. Candidate position matrix
+ 8. API to/from polling locations
+ 9. Public API
+ 10. Moderators to ~ensure fairness and non-intimidation
+ 
+### Getting Started
+ 
+### Platform
+ 
+### Informal Polling 
+ 
+### Debate Forums
+ 
+### Town Hall Forums
+ 
+### Financial & Volunteer Contributions
+The digital age brings near ubiqitous communication that should not be influenced
+by monetary donations. Therefore, monetary donations are limited to a small monetary 
+amount that everyone can afford (ex: $1.00).
+
+Time contributions are
+ 
+ <a name="craft-law"/>
  
 ## Craft Law
- Create a simple, singly purposed law that provides letter of law, intent, and common
- examples on what the law includes or excludes. Allow for constituent polling of the
- law/etc before submitting to the appropriate governing body. 
+Create a simple, singly purposed law that provides letter of law, intent, and common 
+examples on what the law includes or excludes. Allow for constituent polling of the 
+law/etc before submitting to the appropriate governing body. 
  
  1. Letter & intent of the Law
  2. Contextual examples supporting the law (positive)

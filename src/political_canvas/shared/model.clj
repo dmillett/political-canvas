@@ -1,4 +1,4 @@
-(ns political-canvas.campaign.model.model)
+(ns political-canvas.shared.model)
 
 ; A documentation override? Not sure about this yet
 (defprotocol RecordDocs (description [_]))

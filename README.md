@@ -8,16 +8,18 @@ States Constitution. This application framework supports two goals:
 
 [Craft Law](#craft-law) 
  
+[Constituents](#constituents) 
+ 
 **The goal is to keep the process and structure simple while ensuring:**
 
- 1. Freedom
- 2. Equality
- 3. Honesty
- 4. Responsibility & Accountability
- 5. Education
- 6. Transparency
- 7. Public ownership of the framework and domain
- 8. Constituent participation with constructive criticism & debate
+ * Freedom
+ * Equality
+ * Honesty
+ * Responsibility & Accountability
+ * Education
+ * Transparency
+ * Public ownership of the framework and domain
+ * Constituent participation with constructive criticism & debate
 
 <a name="build-campaign" />
 
@@ -27,19 +29,27 @@ any level. It should allow for easy campaign setup, social media feeds, candidat
 interaction with constituents/other candidates, and issues position matrix for all 
 candidates. **This includes more in person events with constituents to foster empathy.** 
  
- 1. Create candidacy
- 2. Establish platform
- 3. Campaign contributions limits ($1.00 - your time is worth more) 
- 4. Schedule Events
- 5. Social media feeds/API
- 6. Debate & Town Hall forums (video/chat/etc)
- 7. Candidate position matrix
- 8. API to/from polling locations
- 9. Public API
- 10. Moderators to ~ensure fairness and non-intimidation
+ * Create candidacy
+ * Establish platform
+ * Campaign contributions limits ($1.00 - your time is worth more) 
+ * Schedule Events
+ * Social media feeds/API
+ * Debate & Town Hall forums (video/chat/etc)
+ * Candidate position matrix
+ * API to/from polling locations
+ * Public API
+ * Moderators to ~ensure fairness and non-intimidation
  
 ### Getting Started
- 
+How a person starts building a campaign for a specific public role.
+
+ * Determine position to run for
+ * Create a Candidate profile
+ * Build a platform & share views on **Election Topics**
+ * Interact with **Election Forums**
+ * Schedule events & meet constituents
+ * Participate in forum/live debates 
+  
 ### Platform
  
 ### Informal Polling 
@@ -48,10 +58,15 @@ candidates. **This includes more in person events with constituents to foster em
 Meet with constituents... empathy doesn't just happen
  
 ### Debate Forums
-Zero tolerance for intimidation and hate 
- 
-### Town Hall Forums
-Zero tolerance for intimidation and hate 
+A traditional or town hall style debate with all/most candidates with real/digital dialog. 
+
+ * Traditional with moderator 
+ * Town Hall with moderator
+ * Approved questions
+ * Surprise questions
+ * Audience questions
+ * Zero tolerance for intimidation and hate 
+ * Required video and chat interaction
  
 ### Financial & Volunteer Contributions
 The digital age brings near ubiqitous communication that should not be influenced
@@ -67,19 +82,28 @@ Create a simple, singly purposed law that provides letter of law, intent, and co
 examples on what the law includes or excludes. Allow for constituent polling of the 
 law/etc before submitting to the appropriate governing body. 
  
- 1. Letter & intent of the Law
- 2. Contextual examples supporting the law (positive)
- 3. Contextual examples excluded by the law (negative)
- 4. Author(s) 
- 5. Immutable final/draft versions
- 6. Related Laws
- 7. Discussion and versioning forum
- 8. Shared polling
- 9. API to/from Governing Body(s) (House/Senate/etc) 
- 10. Public API
+ * Letter & intent of the Law
+ * Contextual examples supporting the law (positive)
+ * Contextual examples excluded by the law (negative)
+ * Author(s) 
+ * Immutable final/draft versions
+ * Required Laws (depends on)
+ * Related Laws (similar to)
+ * Discussion and versioning forum
+ * Shared polling
+ * API to/from Governing Body(s) (House/Senate/etc) 
+ * Public API
 
-## Usage
 
+<a name="constituents" />
+
+## Constituents
+The voting populace for a given election district. To reduce fraud, the framework 
+will attempt to validate Constituent location details.  
+
+* Voter ID (private data)
+* Address (private data)
+* Census
 
 ## License
 

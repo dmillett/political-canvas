@@ -1,15 +1,14 @@
 # political-canvas (www.political-canvas.org)
 
-A Clojure library designed to reduce disenfranchisement and fix the election 
-system and governance of laws in the United States that compliment the United 
-States Constitution. This application framework supports two goals:
+A Clojure(script) library designed to improve political elections and law creation for the US population. 
+It will adhere to system and governance of laws in the United States that compliment the United 
+States Constitution. The process should reduce disenfranchisement while increasing empathy of the
+the people.
  
 [Build Campaign](#build-campaign)
 
 [Craft Law](#craft-law) 
- 
-[Constituents](#constituents) 
- 
+  
 **The goal is to keep the process and structure simple while ensuring:**
 
  * Freedom
@@ -18,8 +17,12 @@ States Constitution. This application framework supports two goals:
  * Responsibility & Accountability
  * Education
  * Transparency
- * Public ownership of the framework and domain
  * Constituent participation with constructive criticism & debate
+ * Public ownership of the framework and domain
+ 
+*Empathy benefits many, where Apathy benefits one*
+
+[Constituents](#constituents) 
 
 <a name="build-campaign" />
 

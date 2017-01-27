@@ -1,31 +1,33 @@
 # political-canvas (www.political-canvas.org)
 
-A Clojure(script) library designed to improve political elections and law creation for the US population. 
-It will adhere to system and governance of laws in the United States that compliment the United 
-States Constitution. The process should reduce disenfranchisement while increasing empathy of the
+An *election* and *law authoring* Clojure(script) library designed to improve political elections and law creation for the 
+US population. It will adhere to system and governance of laws in the United States that compliment the United 
+States Constitution. The process should help reduce disenfranchisement while educating and increasing participation of the
 the people.
  
 [Build Campaign](#build-campaign)
 
 [Craft Law](#craft-law) 
   
-**The goal is to keep the process and structure simple while ensuring:**
+[Collaborate & Contribute](#collaborate)  
+  
+**Keep the process and structure simple while ensuring:**
 
  * Freedom
  * Equality
  * Honesty
  * Responsibility & Accountability
+ * Transparency 
  * Education
- * Transparency
  * Constituent participation with constructive criticism & debate
  * Public ownership of the framework and domain
+ * Immutable History
  
 *Empathy benefits many, where Apathy benefits one*
 
 [Constituents](#constituents) 
 
-<a name="build-campaign" />
-
+<a name="build-campaign"/></a>
 ## Build Campaign
 Create a framework that allows candidates to build a campaign for an election at 
 any level. It should allow for easy campaign setup, social media feeds, candidate 
@@ -43,6 +45,8 @@ candidates. **This includes more in person events with constituents to foster em
  * Public API
  * Moderators to ~ensure fairness and non-intimidation
  
+ *Explore blockchain for candidate positions and registered constituents*
+ 
 ### Getting Started
 How a person starts building a campaign for a specific public role.
 
@@ -54,8 +58,12 @@ How a person starts building a campaign for a specific public role.
  * Participate in forum/live debates 
   
 ### Platform
+ How to establish positions on common and uncommon topics within an electorate. Demonstrate
+ support for/against policies and events.
  
 ### Informal Polling 
+ 
+ * see blockchain 
  
 ### Schedule Events
 Meet with constituents... empathy doesn't just happen
@@ -70,16 +78,16 @@ A traditional or town hall style debate with all/most candidates with real/digit
  * Audience questions
  * Zero tolerance for intimidation and hate 
  * Required video and chat interaction
+ * immutable dialog 
  
 ### Financial & Volunteer Contributions
 The digital age brings near ubiqitous communication that should not be influenced
 by monetary donations. Therefore, monetary donations are limited to a small monetary 
 amount that everyone can afford (ex: $1.00).
 
-Time contributions are
+Time contributions are allowed.
  
- <a name="craft-law"/>
- 
+<a name="craft-law"/></a>
 ## Craft Law
 Create a simple, singly purposed law that provides letter of law, intent, and common 
 examples on what the law includes or excludes. Allow for constituent polling of the 
@@ -98,15 +106,31 @@ law/etc before submitting to the appropriate governing body.
  * Public API
 
 
-<a name="constituents" />
-
+<a name="constituents"/></a>
 ## Constituents
-The voting populace for a given election district. To reduce fraud, the framework 
-will attempt to validate Constituent location details.  
+The voting populace for a given election district. To reduce fraud or abuse, the framework will attempt to validate 
+Constituent location details. This is also useful for educating about local voter laws.  
 
 * Voter ID (private data)
 * Address (private data)
 * Census
+
+<a name="collaborate"/></a>
+## Collaborate & Contribute
+I think this will take a lot of work with perspectives and efforts from many people. If you have ideas or are 
+interested in contributing or collaborating, please contact me: david.millett@political-canvas.org 
+
+### Campaign Framework
+Please use the following labels when creating issues:
+*framework-campaign*, *development*, *product*, *ui*, *qa*, *mobile*, *ios*, *android*
+
+### Law Authoring Framework
+Please use the following labels when creating issues:
+*framework-campaign*, *development*, *product*, *ui*, *qa*, *mobile*, *ios*, *android*
+
+### www.political-canvas.org Website
+Please use the following labels when creating issues:
+*framework-campaign*, *development*, *product*, *ui*, *qa*, *ops*, *mobile*, *ios*, *android*
 
 ## License
 

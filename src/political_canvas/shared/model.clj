@@ -1,28 +1,24 @@
 (ns political-canvas.shared.model)
 
-; Where a Constituent or Candidate lives
+; Where a Constituent or Candidate lives (some validation is required)
 (defrecord Address [street1 street2 apartment city state postal country])
 
-; Voters name, alias, address, ids {voterId, etc}
+; An email address and the date it was entered
+(defrecord EmailAddress [email date])
 
-(defrecord Constituent [name address alias start_date history ids])
-
-; The Candidate who holds office/position or desires office/positions
-(defrecord Candidate [name address affiliation incumbant])
-
+; For any participant that can use screennames with date
+(defrecord Name [first middle last prefix suffix screennames])
 
 ; Texts, images, videos, etc
 (defrecord History [key date content])
 
-; Only voting elligible people are allowed to contribute
-(defrecord FinancialContribution [date amount constituent])
+(defrecord PoliticalOffice [id region title description created_date])
 
-; Time/people spent organizing, canvasing, etc
-(defrecord VolunteerContribution [date time type constituent])
+; Only voting elligible people are allowed to contribute (time/money contribution)
+(defrecord Contribution [id type date amount])
 
-
-; An entity (person) who moderates forums for bullying & factual content
-(defrecord Moderator [name alias affiliation])
+; Where 'types' might be: [{Constituent }, {Encumbent 2018+), {Candidate 2017+}, {Moderator n/a}]
+(defrecord Human [ids types name address email_addresses register_date history affiliations contributions offices])
 
 ; Town hall style conversations (with moderators to ensure Constructive criticism)
 ; All entries are recorded, included temporary bans from Moderators
@@ -32,8 +28,8 @@
 
 
 ; A list of boundary coordinates enclosing an election district
-; Where boundaries is a list of external coordinates
-(defrecord Region [name description boundaries modified_date])
+; Where boundaries is a list of external coordinates and coordinates can change
+(defrecord Region [id name description boundaries modified_date])
 
 ; The public position Candidate(s) are running for and Constituents are voting for
 (defrecord Election [name date candidates forums description])

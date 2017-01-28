@@ -9,6 +9,8 @@ the people.
 
 [Craft Law](#craft-law) 
   
+[Constituents](#constituents)   
+  
 [Collaborate & Contribute](#collaborate)  
   
 **Keep the process and structure simple while ensuring:**
@@ -24,8 +26,6 @@ the people.
  * Immutable History
  
 *Empathy benefits many, where Apathy benefits one*
-
-[Constituents](#constituents) 
 
 <a name="build-campaign"/></a>
 ## Build Campaign

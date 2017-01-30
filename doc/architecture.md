@@ -1,4 +1,7 @@
-
+# Proposed Architecture (for discussion)
+Here are some initial thoughts on architecture. They are all open for discussion.
+Initial delivery may only support one architecture choice where there are multiple,
+ viable options.
 
 ## Mobile Application(s)
 * Om?
@@ -10,6 +13,14 @@
 
 ## Verification
 * block chain
+### candidates
+
+### voters
+* voter registration by address & date?
+* voter email address(es)
+#### how many voters per address?
+#### local voter laws
+* educate based on voter law eligibility
 
 ### Constituent
 * voting
@@ -21,6 +32,7 @@
 * authoring
 
 ## API Management
+How to provide public and internal access to the platform.
 
 ### Public
 * todo
@@ -35,6 +47,11 @@
 * Cassandra?
 * Datomic?
 * Postresql?
+
+## Chat & Forum
+* Slack?
+* Jabber/XMPP?
+* Hipchat?
 
 ## Monitoring
 * Riemann?

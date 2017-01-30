@@ -118,7 +118,10 @@ Constituent location details. This is also useful for educating about local vote
 <a name="collaborate"/></a>
 ## Collaborate & Contribute
 I think this will take a lot of work with perspectives and efforts from many people. If you have ideas or are 
-interested in contributing or collaborating, please contact me: david.millett@political-canvas.org 
+interested in contributing or collaborating, please contact me: **david.millett@political-canvas.org** . Please see the
+**doc/** for current points of discussion. Issues are forthcoming. 
+
+Feel free to join the Slack channel **#political-canvas** and share your views towards the development of democracy.
 
 ### Campaign Framework
 Please use the following labels when creating issues:
@@ -134,7 +137,7 @@ Please use the following labels when creating issues:
 
 ## License
 
-Copyright © 2016 FIXME -- Sincerely, The United States of America
+Copyright © 2016 political-canvas.org (David Millett)
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.

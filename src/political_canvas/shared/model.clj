@@ -1,5 +1,7 @@
 (ns political-canvas.shared.model)
 
+;; todo: lots to do here
+
 ; Where a Constituent or Candidate lives (some validation is required)
 (defrecord Address [street1 street2 apartment city state postal country])
 

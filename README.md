@@ -2,8 +2,9 @@
 
 An *election* and *law authoring* Clojure(script) library designed to improve political elections and law creation for the 
 US population. It will adhere to system and governance of laws in the United States that compliment the United 
-States Constitution. The process aims to reduce disenfranchisement while educating and increasing participation of the
-the people.
+States Constitution. The process aims to lower the barrier to participating in an election, increase participation and reduce 
+disenfranchisement of the population, while raising awareness of current and future laws. An open internet and moderated social 
+platforms (like this), should help balance, or make obsolete, massive financial contributions.
  
 [Build Campaign](#build-campaign)
 
@@ -21,9 +22,10 @@ the people.
  * Responsibility & Accountability
  * Transparency 
  * Education
- * Constituent personal & online participation with constructive criticism & debate
+ * Constituent participation with constructive criticism & debate for town halls, peaceful gatherings, etc
  * Public ownership of the framework and domain
  * Immutable History
+ * Minimize costs
  
 *Empathy benefits many, where Apathy ~benefits one*
 

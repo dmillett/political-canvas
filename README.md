@@ -2,7 +2,7 @@
 
 An *election* and *law authoring* Clojure(script) library designed to improve political elections and law creation for the 
 US population. It will adhere to system and governance of laws in the United States that compliment the United 
-States Constitution. The process should help reduce disenfranchisement while educating and increasing participation of the
+States Constitution. The process aims to reduce disenfranchisement while educating and increasing participation of the
 the people.
  
 [Build Campaign](#build-campaign)
@@ -21,25 +21,25 @@ the people.
  * Responsibility & Accountability
  * Transparency 
  * Education
- * Constituent participation with constructive criticism & debate
+ * Constituent personal & online participation with constructive criticism & debate
  * Public ownership of the framework and domain
  * Immutable History
  
-*Empathy benefits many, where Apathy benefits one*
+*Empathy benefits many, where Apathy ~benefits one*
 
 <a name="build-campaign"/></a>
 ## Build Campaign
-Create a framework that allows candidates to build a campaign for an election at 
-any level. It should allow for easy campaign setup, social media feeds, candidate 
-interaction with constituents/other candidates, and issues position matrix for all 
-candidates. **This includes more in person events with constituents to foster empathy.** 
+Create a framework that allows candidates to build a campaign for an election at any level. It should allow for easy 
+campaign setup, social media feeds, candidate interaction with constituents/other candidates, and issues position matrix 
+for all candidates. **This includes more in person events with constituents to foster empathy.** 
  
  * Create candidacy
  * Establish platform
+ * Meet constituents
  * Campaign contributions limits ($1.00 - your time is worth more) 
  * Schedule Events
  * Social media feeds/API
- * Debate & Town Hall forums (video/chat/etc)
+ * Debate & Town Hall forums (in person/video/chat/etc)
  * Candidate position matrix
  * API to/from polling locations
  * Public API

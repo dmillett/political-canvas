@@ -65,6 +65,9 @@ How to provide public and internal access to the platform.
 * todo (Flink/Spark/etc)
 * Hadoop cluster
 
+## Social Media
+* name your poison (wait, would this app be considered social media ;-)
+
 ## Server
 * Docker containers & Swarm?
 * Ansible & Nixos?

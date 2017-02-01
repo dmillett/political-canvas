@@ -1,7 +1,9 @@
 # political-canvas (www.political-canvas.org)
 
-An *election* and *law authoring* Clojure(script) library designed to improve political elections and law creation for the 
-US population. It will adhere to system and governance of laws in the United States that compliment the United 
+An *election* and *law authoring* group of Clojure(script) and mobile applications designed to improve political elections and law creation for the 
+US population. 
+
+It will adhere to system and governance of laws in the United States that compliment the United 
 States Constitution. The process aims to lower the barrier to participating in an election, increase participation and reduce 
 disenfranchisement of the population, while raising awareness of current and future laws. An open internet and moderated social 
 platforms (like this), should help balance, or make obsolete, massive financial contributions.
@@ -23,18 +25,19 @@ platforms (like this), should help balance, or make obsolete, massive financial 
  * Transparency 
  * Education
  * Constituent participation with constructive criticism & debate for town halls, peaceful gatherings, etc
- * Public ownership of the framework and domain
+ * Public ownership of the framework, domain, and initial mobile applications
+ * Public API
  * Immutable History
  * Minimize costs
  
-*Empathy benefits many, where Apathy ~benefits one*
+*Empathy benefits many, where Apathy benefits few or none*
 
 <a name="build-campaign"/></a>
 ## Build Campaign
 Create a framework that allows candidates to build a campaign for an election at any level. It should allow for easy 
 campaign setup, social media feeds, candidate interaction with constituents/other candidates, and issues position matrix 
 for all candidates. **This includes more in person events with constituents to foster empathy.** 
- 
+  
  * Create candidacy
  * Establish platform
  * Meet constituents

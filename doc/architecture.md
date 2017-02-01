@@ -35,10 +35,14 @@ Initial delivery may only support one architecture choice where there are multip
 How to provide public and internal access to the platform.
 
 ### Public
-* todo
+* candidate and public office to campaign for
+* raw data for position matrix
+* raw data for virtual forms/channels/chats
+* for scheduled public and private events
 
 ### Private
-* todo
+* mobile application support
+* internal data analytics (sentiment, etc)
 
 ## Caching
 * Redis

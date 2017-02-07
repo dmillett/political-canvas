@@ -16,7 +16,7 @@ platforms (like this), should help balance, or make obsolete, massive financial 
   
 [Collaborate & Contribute](#collaborate)  
   
-**Keep the process and structure simple while ensuring:**
+**Keep the process and structure simple while encouraging/ensuring:**
 
  * Freedom
  * Equality

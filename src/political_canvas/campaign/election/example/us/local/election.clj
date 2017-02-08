@@ -1,4 +1,4 @@
-(ns political-canvas.campaign.election.example.local-election)
+(ns political-canvas.campaign.election.example.election)
 
 ;;
 ; An example of a local aldermanic fictional race in Chicago. There are 50 aldermanic wards in Chicago and each
@@ -6,7 +6,9 @@
 ;
 ; Ward boundaries: https://data.cityofchicago.org/Facilities-Geographic-Boundaries/Boundaries-Wards-2015-/sp34-6z76
 ; http://www.chicagoelections.com/en/ward-maps-and-aldermen.html
-
+;
+; https://data.cityofchicago.org/Facilities-Geographic-Boundaries/Boundaries-Wards-2015-/sp34-6z76
+;
 ; todo: much of this will probably be broken out into appropriate namespaces, configuration, and persistent data storage
 ; http://www.nbcchicago.com/blogs/ward-room/Get-to-Know-Your-Ward-1st-Ward-289330161.html
 ;
@@ -14,7 +16,8 @@
             :precincts {} ; 44 precincts
             :boundaries [[] [] []] ; Explore geometric shapes (area), otherwise use lat-lon pairs
             :demographics {:total_population 56149} ; I am not in favor categorizing ethnicities, but worth a discussion
-            :contact_info {:email "ward1@cityofchicago.ooorg"}})
+            :contact_info {:email "ward1@cityofchicago.ooorg"}
+            :address {:state "IL" :city "Chicago" :postal []}})
 
 ; Putting together a rough skeleton of candidate information
 ; Note the :website

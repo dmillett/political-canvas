@@ -12,6 +12,7 @@
    :state "IL"
    :postal []
    :locales ["en-us", "es-mx", "pl"]
+   :type "LOCAL" ; reference data lists
    :boundaries
   {:name "Ward 1"
    :type "MULTIPOLYGON" 

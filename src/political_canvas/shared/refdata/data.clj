@@ -1,24 +1,23 @@
 (ns political-canvas.shared.refdata.data)
 
-; Load these by language_locale (translate by :description)
+; Load these by language_locale
 ; - store as edn
-; => (map #(->Prefix %) (:prefix data))
+; - store as JSON?
 ;
-; (def data
-;   {:prefix ["Mr" "Ms" "Dr" "other"]
-;    :title ["Mayor" "Alderman" "Senator" "Honor"]
-;    :suffix []
-;    })
-;
-(defprotocol Refdata
-  "Ensure static reference style data has a short code, long code, and
-  description. Use this for shared, common data and can serve as an anchor
-  for a translatable ':description'. "
-  (code [x])
-  (long_code [x])
-  (description [x]) )
+;(def title [#Title{:code "Mayor" :codes nil :translation {:en_us "Elected representative of a town or city"}}
+;            #Title{:code "Alderman" :codes nil :translation {:en_us "Elected representative for a subset of town or city"}}
+;            #Title{:code "Honor" :codes ["Judge"] :translation {:en_us "A justice of the peace"}}])
 
-; This data goes in lang
-(defrecord Title [code long_code description] Refdata)
-(defrecord Prefix [code long_code description] Refdata)
-(defrecord Suffix [code long_code description] Refdata)
+; This data goes in locale specific folders
+(defrecord Title [code codes translation])
+(defrecord Prefix [code codes translation])
+(defrecord Suffix [code codes translation])
+
+; Types
+(defrecord AddressType [code codes translation])
+(defrecord ElectionType [code codes translation])
+(defrecord CandidateType [code codes translation])
+(defrecord PollType [code codes translation])
+(defrecord ContributionType [code codes translation])
+(defrecord ForumType [code codes translation])
+(defrecord ForumTopicType [code codes translation])

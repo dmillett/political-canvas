@@ -1,5 +1,9 @@
 (ns political-canvas.shared.tools)
 
+(defn local-file-name
+  [filename]
+  (str (System/getProperty "user.dir") "/" filename))
+
 (defn data-to-file
   "Dump a clojure data structure to an EDN file using (with-out-str). This
   requires an existing directory or a filename inclusive of directory."

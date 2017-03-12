@@ -1,1 +1,15 @@
-{:titles [#political_canvas.shared.refdata.data.Title{:code "Mr", :codes ["Mr"], :translation {:en_us "Male name prefix"}} #political_canvas.shared.refdata.data.Title{:code "Ms", :codes ["Ms"], :translation {:en_us "Female name prefix"}} #political_canvas.shared.refdata.data.Title{:code "Dr", :codes ["Dr"], :translation {:en_us "A doctorate, doctor, or dentist"}}]}
+{:prefix
+  [#political_canvas.shared.refdata.data.Prefix{:code "Mr", :codes ["Mister"], :translation {:en_us "Male name prefix"}}
+   #political_canvas.shared.refdata.data.Prefix{:code "Ms", :codes ["Miss"], :translation {:en_us "Female name prefix"}}
+   #political_canvas.shared.refdata.data.Prefix{:code "Dr", :codes ["Doctor"], :translation {:en_us "A doctorate, doctor, or dentist"}}
+   ]
+ :suffix
+   [#political_canvas.shared.refdata.data.Suffix{:code "Jr", :codes ["Junior"], :translation {:en_us "Indicates offspring or child of"}}
+   #political_canvas.shared.refdata.data.Suffix{:code "Sr", :codes ["Senior"], :translation {:en_us "Indicates progenitor of a family"}}
+   ]
+ :titles
+   [#political_canvas.shared.refdata.data.Title{:code "Honor" :codes nil :translation {:en_us "An elected justice of the peace"}}
+   #political_canvas.shared.refdata.data.Title{:code "Mayor" :codes nil :translation {:en_us "An elected representative of a village, town, or city"}}
+   #political_canvas.shared.refdata.data.Title{:code "Alderman" :codes nil :translation {:en_us "An elected neighborhood representative for a city"}}
+   ]
+  }

@@ -26,7 +26,7 @@
   [{:name {:prefix "MS" :first "Janessa" :middle nil :last "Random" :suffix nil}
     :contact_info {:email "jane.random@gmail.com"
                    :website "www.political-canvas.org/chicago/ward1/2017/janerandom/"
-                   :social {:twitter "janerandome" :facebook "Jane Random Ward 1"}}
+                   :social {:twitter "janerandom" :facebook "Jane Random Ward 1"}}
     :position ward1
     :bio {:summary "A fictional candidate for a fictional election for a real public office"}
     :positions {:education {} :mass_transit {} :building_permits {} :violence {}

@@ -1,6 +1,6 @@
-(ns political-canvas.shared.model)
+(ns political-canvas.shared.data.model.schema)
 
-;; todo: lots to do here
+;; todo: lots to do here -- this or refdata?
 
 ; Where a Constituent or Candidate lives (some validation is required)
 (defrecord Address [street postal region country])

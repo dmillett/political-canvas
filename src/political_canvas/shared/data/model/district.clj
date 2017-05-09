@@ -1,4 +1,4 @@
-(ns political-canvas.shared.district)
+(ns political-canvas.shared.data.model.district)
 ;;
 ; What political district is this?
 ; How is the district determined?

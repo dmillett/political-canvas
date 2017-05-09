@@ -1,6 +1,7 @@
 (ns political-canvas.shared.tools)
 
-(defn local-file-name
+(defn local-file
+  "Refer to a local file somewhere in the project directory."
   [filename]
   (str (System/getProperty "user.dir") "/" filename))
 

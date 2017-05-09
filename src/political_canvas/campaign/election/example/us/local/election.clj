@@ -12,7 +12,7 @@
 ; todo: much of this will probably be broken out into appropriate namespaces, configuration, and persistent data storage
 ; http://www.nbcchicago.com/blogs/ward-room/Get-to-Know-Your-Ward-1st-Ward-289330161.html
 ;
-(def ward1 {:name "Ward 1" :type "LOCAL-CITY" :population 123
+(def ward1 {:name "Ward 1" :type "LOCAL-CITY"
             :precincts {} ; 44 precincts
             :boundaries [[] [] []] ; Explore geometric shapes (area), otherwise use lat-lon pairs
             :demographics {:total_population 56149} ; I am not in favor categorizing ethnicities, but worth a discussion

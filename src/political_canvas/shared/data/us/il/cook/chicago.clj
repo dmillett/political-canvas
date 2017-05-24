@@ -1,6 +1,6 @@
-(ns political-canvas.shared.data.us.il.cook.chicago
-  (:use [political-canvas.shared.data.refdata.schema]
-        [political-canvas.shared.data.model.region]))
+(ns political_canvas.shared.data.us.il.cook.chicago
+  (:use [political_canvas.shared.data.refdata.schema]
+        [political_canvas.shared.data.model.region]))
 
 (def ward1 {:name "Ward 1" :type "LOCAL-CITY"
             :precincts {} ; 44 precincts

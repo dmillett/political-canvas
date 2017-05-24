@@ -1,4 +1,4 @@
-(ns political-canvas.shared.data.schema.objects)
+(ns political_canvas.shared.data.schema.objects)
 
 ; Load these by language_locale
 ; - store as edn

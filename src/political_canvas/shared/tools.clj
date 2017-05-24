@@ -1,4 +1,4 @@
-(ns political-canvas.shared.tools)
+(ns political_canvas.shared.tools)
 
 (defn local-file
   "Refer to a local file somewhere in the project directory."

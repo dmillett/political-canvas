@@ -1,4 +1,4 @@
-(ns political-canvas.campaign.election.position-matrix)
+(ns political_canvas.campaign.election.position-matrix)
 ;;
 ; What are the issues?
 ; Issue groups for related issues

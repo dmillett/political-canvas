@@ -1,3 +1,3 @@
-(ns political-canvas.campaign.election.events)
+(ns political_canvas.campaign.election.events)
 ;;
 ;

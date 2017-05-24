@@ -1,5 +1,5 @@
-(ns political-canvas.campaign.election.example.chicago_election
-  (:use political-canvas.shared.data.us.il.cook.chicago))
+(ns political_canvas.campaign.election.example.chicago_election
+  (:use political_canvas.shared.data.us.il.cook.chicago))
 
 ;;
 ; An example of a local aldermanic fictional race in Chicago. There are 50 aldermanic wards in Chicago and each

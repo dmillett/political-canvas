@@ -1,5 +1,5 @@
-(ns political-canvas.shared.data.model.country
-  (:use [political-canvas.shared.data.refdata.schema]))
+(ns political_canvas.shared.data.model.country
+  (:use [political_canvas.shared.data.schema.objects]))
 
 
 ;; http://www.worldatlas.com/aatlas/ctycodes.htm

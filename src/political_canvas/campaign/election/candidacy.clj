@@ -1,4 +1,4 @@
-(ns political-canvas.campaign.election.candidacy)
+(ns political_canvas.campaign.election.candidacy)
 ;;
 ; political district
 ; candidate identity

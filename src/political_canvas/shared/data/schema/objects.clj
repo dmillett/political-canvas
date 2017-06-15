@@ -17,7 +17,7 @@
   [obj field loc_lang]
   (-> obj field loc_lang))
 
-; Name fields
+;; Types (referential data)
 (defrecord Title [code codes translation])
 (defrecord Prefix [code codes translation])
 (defrecord Suffix [code codes translation])
@@ -29,16 +29,23 @@
 (defrecord PoliticalRegion [name type description electected postal languages population boundaries])
 (defrecord Country [name codes translation])
 
+(defrecord ContactType [code codes icon translation]) ; email, phone, slack, pidgin, etc
+(defrecord SocialMediaType [code icon url translation]) ;twitter, facebook, blog, website
 (defrecord ElectionType [code codes translation])
 (defrecord CandidateType [code codes translation])
 (defrecord PollType [code codes translation])
 (defrecord ContributionType [code codes translation])
 (defrecord ForumType [code codes translation])
 (defrecord ForumTopicType [code codes translation])
+(defrecord ViewpointsType [code codes translation]) ; taxes, education, environment, voting, etc
 
-;;
+;; Schema (persistent data)
 ; An email address and the date it was entered
 (defrecord EmailAddress [email date])
+; Candidate social media types and handles
+(defrecord SocialMedia [type handle])
+; Candidate viewpoints on topics like taxes, education, etc (see ViewpointsTypes)
+(defrecord Viewpoints [type voted communicated])
 ; For any participant that can use screennames with date
 (defrecord Name [first middle last prefix suffix screennames])
 ; Texts, images, videos, etc

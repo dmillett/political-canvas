@@ -1,5 +1,5 @@
-(ns political-canvas.shared.refdata.data.model.region
-  (:use [political-canvas.shared.data.schema.objects]))
+(ns political_canvas.shared.refdata.data.model.region
+  (:use [political_canvas.shared.data.schema.objects]))
 
 ; Currently these are heavily focused on US region structure
 (def region_types

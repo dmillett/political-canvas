@@ -1,4 +1,5 @@
-(ns political_canvas.shared.data.model.district)
+(ns political_canvas.shared.data.model.district
+  (:use [political_canvas.shared.data.schema.objects]))
 ;;
 ; What political district is this?
 ; How is the district determined?

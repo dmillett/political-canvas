@@ -1,0 +1,73 @@
+[
+ ;; Election
+ {:db/id #db/id[:db.part/db]
+  :db/doc "An elections database UUID"
+  :db/ident :election/uuid
+  :db/valueType :db.type/uuid
+  :db/unique :db.unique/identity
+  :db/cardinality :db.cardinality/one
+  :db/index true
+  :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+  :db/doc "The election name"
+  :db/ident :election/name
+  :db/unique :db.unique/identity
+  :db/valueType :db.type/string
+  :db/cardinality :db.cardinality/one
+  :db/index true
+  :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+  :db/doc "The election date"
+  :db/ident :election/day
+  :db/valueType :db.type/instant
+  :db/cardinality :db.cardinality/one
+  :db/index true
+  :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+  :db/doc "The election description"
+  :db/ident :election/description
+  :db/valueType :db.type/string
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+  :db/doc "The voting/polling places for this election."
+  :db/ident :election/polling_places
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/many
+  :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+  :db/doc "The Candidates for this Election"
+  :db/ident :election/candidates
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/many
+  :db.install/_attribute :db.part/db}
+
+ ;; candidates
+ {:db/id #db.id[:db.part/db]
+  :db/doc "Election Candidate UUID"
+  :db/ident :candidate/uuid
+  :db/valueType :db.type/uuid
+  :db/unique :db.unique/identity
+  :db/cardinality :db.cardinality/one
+  :db/index true
+  :db.install/_attribute :db.part/db}
+
+  ; todo more Candidate information
+
+ ;; voting/polling places
+ {:db/id #db/id[:db.part/db]
+  :db/doc "The voting/polling location uuid"
+  :db/ident :polling/id
+  :db/valueType :db.type/uuid
+  :db/unique :db.unique/identity
+  :db/cardinality :db.cardinality/one
+  :db/index true
+  :db.install/_attribute :db.part/db}
+
+  ; todo: more polling location information
+ ]

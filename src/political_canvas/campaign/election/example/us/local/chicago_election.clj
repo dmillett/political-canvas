@@ -49,8 +49,6 @@
    :pc_url "www.political-canvas.org/us/il/cook/chicago/ward1/2018/"
    :candidates
      [candidate_jrandom,
-      {; todo
-       }
    ]})
 
 

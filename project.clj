@@ -3,7 +3,7 @@
   :url "http://www.political-canvas.org/FIXME"
   :license {:name "GNU Lesser General Public License, version 2.1"
             :url "https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"}
-  :dependencies [[org.clojure/clojure "1.8.0"]]
+  :dependencies [[org.clojure/clojure "1.9.0"]]
   :plugins [[lein-kibit "0.1.3"]
             [jonase/eastwood "0.2.3"]
             [lein-ancient "0.6.10"]

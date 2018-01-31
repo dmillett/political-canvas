@@ -1,4 +1,4 @@
-(ns political_canvas.shared.data.model.types
+(ns political-canvas.shared.data.model.types
   (:use [political_canvas.shared.data.schema.objects]))
 
 (def social_media

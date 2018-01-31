@@ -1,4 +1,4 @@
-(ns political_canvas.campaign.election.example.chicago_election
+(ns political-canvas.campaign.election.example.us.local.chicago-election
   (:use [political_canvas.shared.data.us.il.cook.chicago]
         [political_canvas.shared.data.schema.objects]
         [political_canvas.shared.data.model.types]))

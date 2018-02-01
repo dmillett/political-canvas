@@ -46,12 +46,12 @@
 (defrecord SocialMedia [type handle])
 ; Candidate viewpoints on topics like taxes, education, etc (see ViewpointsTypes)
 (defrecord Viewpoints [type voted communicated])
-; For any participant that can use screennames with date
+; For any participant that can use screen names with date
 (defrecord Name [first middle last prefix suffix screennames])
 ; Texts, images, videos, etc
 (defrecord History [key date content])
 (defrecord PoliticalOffice [id region title description created_date])
-; Only voting elligible people are allowed to contribute (time/money contribution)
+; Only voting eligible people are allowed to contribute (time/money contribution)
 (defrecord Contribution [id type date amount])
 ; Where 'types' might be: [{Constituent }, {Encumbent 2018+), {Candidate 2017+}, {Moderator n/a}]
 (defrecord Human [ids types name address email_addresses register_date history affiliations contributions offices])

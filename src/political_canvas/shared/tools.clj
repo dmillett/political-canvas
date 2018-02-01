@@ -34,8 +34,8 @@
   (s/def ::foo (spec-drec Foo))
   (s/valid? ::foo [1 2 3])
   =>true"
-  [datarec]
-  (let [fx (-> (str "->" (.getSimpleName datarec)) symbol resolve)]
+  [defrec]
+  (let [drfx (-> (str "->" (.getSimpleName defrec)) symbol resolve)]
     (fn [spec_args]
-      (apply fx spec_args))
+      (apply drfx spec_args))
     ) )

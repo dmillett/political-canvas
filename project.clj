@@ -10,7 +10,8 @@
             [com.walmartlabs/lacinia "0.23.0"]
             [com.datomic/datomic-free "0.9.5561"]]
   :repl-options {:init (do
-                         ;(use 'political-canvas.shared.data)
-                         ;(use 'political-canvas.shared.tools)
+                         (use 'political-canvas.shared.tools)
+                         (use 'political-canvas.shared.data.schema.objects)
+                         (use 'political-canvas.shared.specs)
                          )}
   )

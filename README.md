@@ -16,6 +16,8 @@ platforms (like this), should help balance, or make obsolete, massive financial 
   
 [Collaborate & Contribute](#collaborate)  
   
+[Technical](#technical)  
+    
 **Keep the process and structure simple while encouraging/ensuring:**
 
  * Freedom
@@ -30,7 +32,7 @@ platforms (like this), should help balance, or make obsolete, massive financial 
  * Immutable History
  * Minimize costs
  
-*Empathy benefits many, where Apathy benefits few or none*
+*Empathy and education benefit many, where Apathy and ignorance benefit few or none*
 
 <a name="build-campaign"/></a>
 ## Build Campaign
@@ -110,7 +112,6 @@ law/etc before submitting to the appropriate governing body.
  * API to/from Governing Body(s) (House/Senate/etc) 
  * Public API
 
-
 <a name="constituents"/></a>
 ## Constituents
 The voting populace for a given election district. To reduce fraud or abuse, the framework will attempt to validate 
@@ -139,6 +140,11 @@ Please use the following labels when creating issues:
 ### www.political-canvas.org Website
 Please use the following labels when creating issues:
 *framework-campaign*, *development*, *product*, *ui*, *qa*, *ops*, *mobile*, *ios*, *android*
+
+<a name="technical"/></a>
+## Technical Resources
+Soooo much more to do...but democracy is under siege and needs help.
+[resources](technical-resources.md)
 
 ## License
 

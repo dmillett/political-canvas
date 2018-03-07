@@ -9,8 +9,9 @@
 
 (deftest test-spec-drec
   (is (s/valid? ::foobar [1 2 3]))
-  (is (thrown? ArityException (s/valid? ::foobar [1 2])))
-  (is (thrown? ArityException (s/valid? ::foobar [1 2 3 4])))
+  (is (not (s/valid? ::foobar [1 2])))
+  (is (not (s/valid? ::foobar [1 2 3 4])))
   (is (= [1 2 3] (s/conform ::foobar [1 2 3])))
+  (is (clojure.spec.alpha/invalid? (s/conform ::foobar [1 2 3 4])))
   )
 

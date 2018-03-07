@@ -37,5 +37,5 @@
   [defrec]
   (let [drfx (-> (str "->" (.getSimpleName defrec)) symbol resolve)]
     (fn [spec_args]
-      (apply drfx spec_args))
+      (try (apply drfx spec_args) (catch Exception _)))
     ) )

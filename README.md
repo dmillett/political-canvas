@@ -1,4 +1,6 @@
-# political-canvas (www.political-canvas.org)
+# political-canvas 
+
+TODO: www.political-canvas.org
 
 An *election* and *law authoring* group of Clojure(script) and mobile applications designed to improve political elections and law creation for the 
 US population. 
@@ -8,15 +10,15 @@ States Constitution. The process aims to lower the barrier to participating in a
 disenfranchisement of the population, while raising awareness of current and future laws. An open internet and moderated social 
 platforms (like this), should help balance, or make obsolete, massive financial contributions.
  
-[Build Campaign](#build-campaign)
+[Build Campaign (todo)](#build-campaign)
 
-[Craft Law](#craft-law) 
+[Craft Law (todo)](#craft-law) 
   
-[Constituents](#constituents)   
+[Constituents (todo)](#constituents)   
   
-[Collaborate & Contribute](#collaborate)  
+[Collaborate & Contribute (todo)](#collaborate)  
   
-[Technical](#technical)  
+[Technical (todo)](#technical)  
     
 **Keep the process and structure simple while encouraging/ensuring:**
 

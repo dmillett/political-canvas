@@ -1,6 +1,7 @@
 # political-canvas 
 
-TODO: www.political-canvas.org
+**TODO**: www.political-canvas.org (website)
+**TODO**: hosting (Digital Ocean, etc)
 
 An *election* and *law authoring* group of Clojure(script) and mobile applications designed to improve political elections and law creation for the 
 US population. 
@@ -152,5 +153,5 @@ Soooo much more to do...but democracy is under siege and needs help.
 
 Copyright © 2016 political-canvas.org (David Millett)
 
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+This program and the accompanying materials are made available under the
+terms of the GNU LESSER GENERAL PUBLIC LICENSE Version 2.1

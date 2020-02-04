@@ -1,5 +1,6 @@
 # political-canvas 
 
+Funded by me:
 **TODO**: www.political-canvas.org (website)
 **TODO**: hosting (Linode, etc)
 

@@ -1,7 +1,7 @@
 # political-canvas 
 
 **TODO**: www.political-canvas.org (website)
-**TODO**: hosting (Digital Ocean, etc)
+**TODO**: hosting (Linode, etc)
 
 An *election* and *law authoring* group of Clojure(script) and mobile applications designed to improve political elections and law creation for the 
 US population. 
